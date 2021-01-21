@@ -1,0 +1,124 @@
+h1,h2,h3,h4,h5,h6,p,ol,dl,dd,dt,span,a,img,div{
+	border:0;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	list-style: none;
+} 
+body{
+	background-color: #fff;
+	margin:0;
+	border:0;
+	padding:0;
+	font-family:'Lato', sans-serif;
+}
+#main{
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:8px;
+	background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);	
+}
+a{
+	
+	text-decoration:none;
+	cursor:pointer;
+}
+h6{
+	border-bottom:1px solid #e5e5e5;
+	padding:0px;
+	margin:0px;	
+}
+.c0{
+	background:#fff url("img/logo4.png") no-repeat 8px 4px;
+	border:0px;
+	padding:8px;
+	margin:4px;
+	min-height: 100px;	
+}
+.c0 table{
+	float:right;
+	table-layout: fixed;
+	text-align: center;
+	border: 0px;
+	margin-top: 40px;
+	font-size: 13px;	
+}
+.c0 table td{
+	padding-left: 8px;
+}
+.c0 a:link{ color:#940d6b; }
+.c0 a:visited{ color:#940d6b; }
+.c0 a:hover{ color:#9c9c50; }
+.c0 a:active{ color:#9c9c50; }
+.c1{ 
+	border:1px solid #e5e5e5;
+	padding:8px;
+	margin:4px;
+	margin-top: 16px;
+	background-color:#fff;
+	border-radius: 10px;
+}
+.c1 a:link{ color:#25386b; }
+.c1 a:visited{ color:#25386b; }
+.c1 a:hover{ color:#9c9c50; }
+.c1 a:active{ color:#9c9c50; }
+.c1 h1{ 
+	font-weight:bold;
+	font-size:32px; 
+	color:#000;
+	margin-top:3px;
+	padding-bottom:4px;
+	text-align: center;
+}
+.c1 h2{ 
+	font-weight:bold;
+	font-size:26px; 
+	color:#222;
+	text-align: center;
+}
+.c1 h3{ 
+	font-size:18px;
+	color:#000;
+	margin-top:1em;
+	margin-bottom:1em;
+	font-weight:bold;
+}
+.c1 h4{ 
+	padding:5px 0px 5px 0px;
+	line-height:22px;
+	font-size:16px;
+	font-weight: normal;
+}
+.c1 h5{ 
+	padding:5px 0px 5px 0px;
+	font-size:14px;
+	color:#8b8b8b;
+	margin-bottom:3px;
+	font-weight: normal;
+}
+.c1 p{ 
+	padding:0px;
+	line-height:22px;
+	font-size:16px;
+	zoom:1;
+	font-weight: normal;
+	color:#444;
+	min-height:18px;
+}
+.c1 ul{
+	color:#444;
+	font-size:16px;
+	font-weight: normal;
+}
+.c1 .ct table{
+	border-collapse:collapse;
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+	border: 0px;
+	color:#444;
+}
